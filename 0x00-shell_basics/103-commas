@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m -p / -a -X
+ls -pma | sort | tr '\n' '\n'
